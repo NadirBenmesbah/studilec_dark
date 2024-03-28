@@ -312,6 +312,9 @@ section.parent {
 }
 
 section.main .parent .description {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     padding: 50px 1em;
     background-color: #3C3C3C;    
     overflow-y:auto;
@@ -332,6 +335,7 @@ section.main .parent .description button {
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 20px;
+    width: 122px;
 }
 
 section.main .parent .description button.iscButton {
